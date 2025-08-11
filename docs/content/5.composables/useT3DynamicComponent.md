@@ -34,7 +34,7 @@ or just
 
 ```vue
 <template>
-  <component :is="useT3DynamicCe(element.type)" />
+  <component :is="useT3DynamicCe(element.type)" v-bind="element.content" />
 </template>
 ```
 
